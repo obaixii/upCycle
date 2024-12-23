@@ -1,0 +1,32 @@
+{
+    "rewrites": [
+        {
+            "source": "/demo",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/demo/account",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/demo/book",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/demo/redeem",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/demo/view",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/test",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/:path*",
+            "destination": "/index.html"
+        }
+    ]
+}
