@@ -1,5 +1,5 @@
 import { BadgeDollarSign } from "lucide-react";
-import Payment from "./Components/Payment";
+import Payment from "./pages/Dashboard/Components/Payment";
 
 export default function Redeem() {
     return (
